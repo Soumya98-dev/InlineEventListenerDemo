@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}

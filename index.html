@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Event Listener|Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>This is a really fun website</h1>
+    <h3>Wally the Warthog is a great pet</h3>
+    <h4>Wally eats a lot of grass</h4>
+    <!-- Used <div> beacause buttons are inline elements. To render the 2 buttons in 2 lines -->
+    <div>
+      <button title="Changes the color to blue" onclick="blue()">
+        How about making everything <span style="color: blue">blue</span>?
+      </button>
+    </div>
+    <div>
+      <button title="Changes the color to red" onclick="red()">
+        How about making everything <span style="color: red">red</span>?
+      </button>
+    </div>
+    <button title="Resets all the colors" onclick="reset()">
+      Reset to default(black)
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
